@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
 
         PlayPause = (ImageButton) findViewById(R.id.PlayPause);
 
+
         PlayPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +29,14 @@ public class MainActivity extends Activity {
                 isPlayed = !isPlayed;
             }
         });
+
+        PlayPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
     }
 }
 
